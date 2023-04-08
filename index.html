@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Tailwind</title>
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body class="font-sans">
+    <!-- Header start -->
+    <header
+      class="bg-white opacity-90 shadow-md backdrop-filter fixed top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home"
+              ><img
+                src="src/img/logo.svg"
+                alt="Logo"
+                class="w-32 block py-6 lg:w-full"
+            /></a>
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-slate-900 py-2 mx-8 group-hover:text-purple-500 font-semibold flex"
+                    >Program</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-slate-900 py-2 mx-8 group-hover:text-purple-500 font-semibold flex"
+                    >Mentor</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-slate-900 py-2 mx-8 group-hover:text-purple-500 font-semibold flex"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-slate-900 py-2 mx-8 group-hover:text-purple-500 font-semibold flex"
+                    >Business</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Hero start -->
+    <section id="home" class="mt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-green-600 text-base leading-6 uppercase mb-4"
+            >
+              Learn From Expert
+            </h3>
+            <h1 class="font-bold text-4xl text-slate-900 mb-4 lg:text-6xl">
+              Start Your
+              <span class="text-purple-600">Developer Journey</span> Today
+            </h1>
+            <p class="text-base text-slate-600 leading-7 mb-7 lg:text-lg">
+              Our bootcamp is helping junior developers who are really
+              passionate in the programming.
+            </p>
+            <a
+              href="#"
+              class="bg-purple-600 py-3 px-10 rounded-full font-semibold text-white shadow-md lg:text-lg block text-center"
+              >Get Started</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <img src="src/img/banner.png" alt="Banner" class="mt-7 lg:mt-0" />
+          </div>
+          <div
+            class="flex flex-wrap justify-center gap-10 w-full mt-8 lg:gap-12 lg:mt-12"
+          >
+            <img
+              src="src/img/apple.png"
+              alt="Apple Logo"
+              class="w-20 lg:w-28"
+            />
+            <img
+              src="src/img/adobe.png"
+              alt="Adobe Logo"
+              class="w-20 lg:w-28"
+            />
+            <img
+              src="src/img/slack.png"
+              alt="Slack Logo"
+              class="w-20 lg:w-28"
+            />
+            <img
+              src="src/img/spotify.png"
+              alt="Apple Logo"
+              class="w-20 lg:w-28"
+            />
+            <img
+              src="src/img/google.png"
+              alt="Apple Logo"
+              class="w-20 lg:w-28"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero end -->
+
+    <!-- benefits start -->
+    <div id="benefit" class="my-36">
+      <div class="container">
+        <div class="w-full text-center px-4">
+          <h3
+            class="font-semibold text-green-600 text-base leading-6 uppercase mb-1"
+          >
+            Learn From Expert
+          </h3>
+          <h2 class="text-xl font-bold leading-10">Learn Faster & Better</h2>
+        </div>
+        <div class="mt-12 flex flex-wrap w-full justify-evenly gap-6">
+          <div class="p-2 rounded-2xl shadow-lg w-40 lg:w-72">
+            <img
+              src="src/img/benefit1.png"
+              alt="Benefit Logo"
+              class="w-10 mb-2"
+            />
+            <span class="text-lg font-semibold text-slate-900 mb-2"
+              >Diversity</span
+            >
+            <p class="text-sm text-slate-500">
+              Learn from anyone around the world and get a new skills
+            </p>
+          </div>
+          <div class="p-2 rounded-2xl shadow-lg w-40 lg:w-72">
+            <img
+              src="src/img/benefit2.png"
+              alt="Benefit Logo"
+              class="w-10 mb-2"
+            />
+            <span class="text-lg font-semibold text-slate-900 mb-2"
+              >A.I Guidelines</span
+            >
+            <p class="text-sm text-slate-500">
+              Lara will help you to choose which path that suitable for you
+            </p>
+          </div>
+          <div class="p-2 rounded-2xl shadow-lg w-40 lg:w-72">
+            <img
+              src="src/img/benefit3.png"
+              alt="Benefit Logo"
+              class="w-10 mb-2"
+            />
+            <span class="text-lg font-semibold text-slate-900 mb-2"
+              >1-1 Mentoring</span
+            >
+            <p class="text-sm text-slate-500">
+              We will ensure that you will get what you really do need
+            </p>
+          </div>
+          <div class="p-2 rounded-2xl shadow-lg w-40 lg:w-72">
+            <img
+              src="src/img/benefit4.png"
+              alt="Benefit Logo"
+              class="w-10 mb-2"
+            />
+            <span class="text-lg font-semibold text-slate-900 mb-2"
+              >Future Job</span
+            >
+            <p class="text-sm text-slate-500">
+              Get your dream job in your dream company together with us
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- benefits end -->
+
+    <!-- features start -->
+    <div id="features" class="my-36">
+      <div class="container">
+        <div
+          class="flex flex-wrap px-4 justify-center mb-12 lg:gap-32 lg:items-center"
+        >
+          <img src="src/img/features1.png" alt="" class="w-72 lg:w-80" />
+          <div class="text-center lg:w-80 lg:text-left">
+            <h3
+              class="font-semibold text-green-600 text-base leading-6 uppercase mb-1 mt-3"
+            >
+              Better Career
+            </h3>
+            <h2 class="text-xl font-bold leading-10">Learn Faster & Better</h2>
+            <p class="text-sm text-slate-500 lg:my-6">
+              We do really care to our students future career so it would be
+              good if you are taking a quick interview
+            </p>
+            <a
+              href="#"
+              class="bg-purple-400 block mt-4 text-white font-semibold text-base py-3 rounded-full shadow-lg lg:text-center"
+              >Learn More</a
+            >
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap px-4 justify-center mb-12 lg:gap-32 lg:items-center"
+        >
+          <img
+            src="src/img/features2.png"
+            alt=""
+            class="w-72 lg:w-80 lg:order-2"
+          />
+          <div class="text-center lg:w-80 lg:text-left lg:order-1">
+            <h3
+              class="font-semibold text-green-600 text-base leading-6 uppercase mb-1 mt-3"
+            >
+              Study harder
+            </h3>
+            <h2 class="text-xl font-bold leading-10">Finish The Project</h2>
+            <p class="text-sm text-slate-500">
+              Each of you will be joining the private group and also working
+              together with team members on project
+            </p>
+            <a
+              href="#"
+              class="bg-purple-400 block mt-4 text-white font-semibold text-base py-3 rounded-full shadow-lg lg:text-center"
+              >View Demo</a
+            >
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap px-4 justify-center mb-12 lg:gap-32 lg:items-center"
+        >
+          <img src="src/img/features3.png" alt="" class="w-72 lg:w-80" />
+          <div class="text-center lg:w-80 lg:text-left">
+            <h3
+              class="font-semibold text-green-600 text-base leading-6 uppercase mb-1 mt-3"
+            >
+              End Game
+            </h3>
+            <h2 class="text-xl font-bold leading-10">Big Demo Day</h2>
+            <p class="text-sm text-slate-500">
+              Learn how to speaking in public to demonstrate your final project
+              and receive the important feedbacks
+            </p>
+            <a
+              href="#"
+              class="bg-purple-400 block mt-4 text-white font-semibold text-base py-3 rounded-full shadow-lg lg:text-center"
+              >Showcase</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- features end -->
+
+    <!-- Footer Start -->
+    <footer class="mt-28 mb-6">
+      <div class="container">
+        <div class="w-full text-center">
+          <h3 class="text-sm text-slate-500">
+            All Rights Reserved. Copyright Laracamp BWA Indonesia.
+          </h3>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
